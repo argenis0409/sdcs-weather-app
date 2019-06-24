@@ -3,9 +3,9 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:11.13.0
+      - image: circleci/node:10.15.3
 
-    working_directory: ~/repo
+    working_directory: ~/sdcs-weather-app
 
     steps:
       - checkout
@@ -29,7 +29,7 @@ jobs:
 
   deploy:
     docker:
-      - image: circleci/node:11.13.0
+      - image: circleci/node:10.15.3
     steps:
       - checkout
       - run:
