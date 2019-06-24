@@ -11,6 +11,7 @@ app.use(express.static('dist'));
 app.use(express.static('public'));
 
 app.get('/weather/:city', (req, res) => {
+
   return axios({
     url: `http://api.openweathermap.org/data/2.5/weather?q=${req.params.city}&APPID=${process.env.GET_API_KEY}&units=imperial`,
     method: 'get'
