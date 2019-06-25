@@ -6,7 +6,6 @@ export default class Search extends React.Component {
     constructor(props) {
         super(props);
 
-
         this.handleInput = this.handleInput.bind(this);
         this.handleSearch = this.handleSearch.bind(this);
         this.handleCityInfo = this.handleCityInfo.bind(this);
