@@ -1,9 +1,35 @@
-SDCS Weather App
+## SDCS Weather App
 
-For this app i used react, react-redux, bootstrap, webpack.
+Check the weather in any city you like around the world. 
 
-The App give the current weather so you know if it's going to be a nice weekend.
+## Technologies used
+* React
+* react-redux 
+* bootstrap
+* webpack
+* axios
+* chai
+* nightmare
+* Express
 
-To start the app, just clone the repo into your terminal then open the project.
+## Setup
+Clone/download the repo onto your local system then run the following commands:
+```
+npm install
+```
+```
+npm run build
+```
+```
+npm start
+```
+Then go to http://localhost:3000 in your browser
 
-Run npm install then npm start so you can see the project running locally.
+## To test
+```
+npm run build
+```
+```
+npm test
+```
+

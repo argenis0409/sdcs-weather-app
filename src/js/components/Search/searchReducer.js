@@ -6,7 +6,6 @@ const defaultState = {
   history: [],
 };
 
-
 export default function SearchReducer(state = defaultState, action) {
   const { type, payload } = action;
 
